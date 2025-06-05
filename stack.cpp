@@ -85,11 +85,13 @@ int main()
        cout << "Enter yout choice: ";
        cin >> choice;
 
-       switch (Choice)
+       switch (choice)
        {
         case 1:
         cout << "Enter the value to push: ";
         cin >> value;
+        stack.push(value);
+        break;
        }
     }
 }
