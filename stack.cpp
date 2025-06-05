@@ -84,5 +84,12 @@ int main()
        cout << "4.exit\n";
        cout << "Enter yout choice: ";
        cin >> choice;
+
+       switch (Choice)
+       {
+        case 1:
+        cout << "Enter the value to push: ";
+        cin >> value;
+       }
     }
 }
